@@ -369,7 +369,7 @@ def testRbfKerne(k1=1.3): #k1是蓉错率
         if np.sign(predict)!=np.sign(labelArr[i]): errorCount += 1
     print ("the test error rate is: %f" % (float(errorCount)/m))
 
-
+##下面试svm识别数据
 def img2vector(filename):
     returnVect = np.zeros((1, 1024))
     fr = open(filename)
