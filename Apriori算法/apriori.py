@@ -103,6 +103,7 @@ def rulesFromConseq(freqSet,H,supportData,br1,minConf=0.7):
 
 
 
+
 if __name__=="__main__":
     dataSet = loadDataSet()
     # C1 = createC1(dataSet=dataSet)
@@ -114,3 +115,11 @@ if __name__=="__main__":
     L,suppData = apriori(dataSet,minSupport=0.5)
     rules = generateRules(L,suppData,minConf=0.7)
     print(rules)
+    #========发现毒蘑菇相似特征
+    mushDataSet = [line.split() for line in open('mushroom.dat').readlines()]
+    L,suppData=apriori(mushDataSet,minSupport=0.3)
+    print(L)
+    for item in L[3]:#L[2]
+        print(item)
+        if item.intersection('2'):#交集
+            print(item)
