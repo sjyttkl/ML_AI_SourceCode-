@@ -83,3 +83,17 @@ if __name__ == '__main__':
 
     print('final result:', P_n)
 
+    import networkx as nx
+    import matplotlib.pyplot as plt
+
+    if __name__ == '__main__':
+
+        # 读入有向图，存储边
+        f = open('input_1.txt', 'r')
+        edges = [line.strip('\n').split(' ') for line in f]
+
+        G = nx.DiGraph()
+        for edge in edges:
+            G.add_edge(edge[0], edge[1])
+        nx.draw(G, with_labels=True)
+        plt.show()
