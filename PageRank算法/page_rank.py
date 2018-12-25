@@ -6,7 +6,7 @@
    email:         695492835@qq.com
    Author :       sjyttkl
    date：          2018/12/25
-   Description :  pagerank
+   Description :  pagerank:    https://blog.csdn.net/sjyttkl/article/details/85092785
 ==================================================
 """
 __author__ = 'songdongdong'
