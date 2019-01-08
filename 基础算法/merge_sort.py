@@ -3,13 +3,13 @@
 """
 ==================================================
    File Name：     merge_sort.py
-   email:         songdongdong@jd.com
-   Author :       songdongdong
+   email:         695492835@qq.com
+   Author :       sjyttkl
    date：          2019/1/7
    Description :  
 ==================================================
 """
-__author__ = 'songdongdong'
+__author__ = 'sjyttkl'
 
 '''
 归并排序是分而治之算法的完美例子。它简单地使用了这种算法的两个主要步骤：

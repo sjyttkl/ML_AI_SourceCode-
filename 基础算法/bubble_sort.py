@@ -3,13 +3,13 @@
 """
 ==================================================
    File Name：     bubble_sort.py
-   email:         songdongdong@jd.com
-   Author :       songdongdong
+   email:         695492835@qq.com
+   Author :       sjyttkl
    date：          2019/1/7
    Description :   冒泡排序
 ==================================================
 """
-__author__ = 'songdongdong'
+__author__ = 'sjyttkl'
 
 def bubble_sort(arr):
     def swap(i, j):

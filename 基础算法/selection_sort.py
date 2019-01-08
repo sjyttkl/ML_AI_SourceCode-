@@ -3,13 +3,13 @@
 """
 ==================================================
    File Name：     selection_sort.py
-   email:         songdongdong@jd.com
-   Author :       songdongdong
+   email:         695492835@qq.com
+   Author :       sjyttkl
    date：          2019/1/7
    Description :  选择排序
 ==================================================
 """
-__author__ = 'songdongdong'
+__author__ = 'sjyttkl'
 
 def selection_sort(arr):
     for i in range(len(arr)):
